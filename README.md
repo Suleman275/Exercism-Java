@@ -1,2 +1,2 @@
 # Exercism-Java
-Answers to all Exercism Java track exercises
+MY answers to Exercism Java track exercises

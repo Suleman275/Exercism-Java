@@ -46,11 +46,11 @@ public class SqueakyCleanTest {
 
     @Test
     public void omit_lower_case_greek_letters() {
-        assertThat(SqueakyClean.clean("MyΟqw2inder")).isEqualTo("MyΟFinder");
+        assertThat(SqueakyClean.clean("MyΟβιεγτFinder")).isEqualTo("MyΟFinder");
     }
 
     @Test
     public void combine_conversions() {
-        assertThat(SqueakyClean.clean("9 -abcĐ\uD83D\uDE00ω\0")).isEqualTo("_AbcAAAAAAAAAAAĐCTRL");
+        assertThat(SqueakyClean.clean("9 -abcĐ\uD83D\uDE00ω\0")).isEqualTo("_AbcĐCTRL");
     }
 }

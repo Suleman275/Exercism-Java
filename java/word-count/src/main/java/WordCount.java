@@ -11,7 +11,7 @@ public class WordCount {
         phrase = phrase.replaceAll("\n", "");
         phrase = phrase.replaceAll("\t", "");
 
-        phrase = phrase.replaceAll("[^a-zA-Z0-9\\s']", "");
+        phrase = phrase.replaceAll("[^a-zA-Z0-9\\s]", "");
         phrase = phrase.replaceAll("  ", " ");
         
         String[] words = phrase.split(" ");

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="DifferenceOfSquaresCalculatorTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2022-05-16T08:34:32" hostname="DESKTOP-589SADQ" time="0.014">
+<testsuite name="DifferenceOfSquaresCalculatorTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2022-07-15T11:13:16" hostname="DESKTOP-1JCEPK9" time="0.019">
   <properties/>
-  <testcase name="testDifferenceOfSquaresUpToHundred" classname="DifferenceOfSquaresCalculatorTest" time="0.008"/>
-  <testcase name="testSquareOfSumUpToOne" classname="DifferenceOfSquaresCalculatorTest" time="0.0"/>
+  <testcase name="testDifferenceOfSquaresUpToHundred" classname="DifferenceOfSquaresCalculatorTest" time="0.01"/>
+  <testcase name="testSquareOfSumUpToOne" classname="DifferenceOfSquaresCalculatorTest" time="0.001"/>
   <testcase name="testSquareOfSumUpToHundred" classname="DifferenceOfSquaresCalculatorTest" time="0.0"/>
   <testcase name="testDifferenceOfSquaresUpToOne" classname="DifferenceOfSquaresCalculatorTest" time="0.0"/>
   <testcase name="testSumOfSquaresUpToHundred" classname="DifferenceOfSquaresCalculatorTest" time="0.0"/>
-  <testcase name="testSquareOfSumUpToFive" classname="DifferenceOfSquaresCalculatorTest" time="0.001"/>
-  <testcase name="testDifferenceOfSquaresUpToFive" classname="DifferenceOfSquaresCalculatorTest" time="0.0"/>
+  <testcase name="testSquareOfSumUpToFive" classname="DifferenceOfSquaresCalculatorTest" time="0.0"/>
+  <testcase name="testDifferenceOfSquaresUpToFive" classname="DifferenceOfSquaresCalculatorTest" time="0.001"/>
   <testcase name="testSumOfSquaresUpToOne" classname="DifferenceOfSquaresCalculatorTest" time="0.0"/>
-  <testcase name="testSumOfSquaresUpToFive" classname="DifferenceOfSquaresCalculatorTest" time="0.0"/>
+  <testcase name="testSumOfSquaresUpToFive" classname="DifferenceOfSquaresCalculatorTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

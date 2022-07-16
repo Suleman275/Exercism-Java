@@ -1,10 +1,35 @@
-/*
+import java.util.HashMap;
+import java.util.Map;
 
-Since this exercise has a difficulty of > 4 it doesn't come
-with any starter implementation.
-This is so that you get to practice creating classes and methods
-which is an important part of programming in Java.
+public class WordCount {
 
-Please remove this comment when submitting your solution.
+    Map<String, Integer> phrase(String phrase) {
+        Map<String, Integer> results = new HashMap<>(); //Map that will be returned
+        phrase = phrase.toLowerCase(); //converting ecerything to lowercase
+        
+        phrase = phrase.replaceAll(",", " ");
+        phrase = phrase.replaceAll("\n", "");
+        phrase = phrase.replaceAll("\t", "");
 
-*/
+        phrase = phrase.replaceAll("[^a-zA-Z0-9\\s']", "");
+        phrase = phrase.replaceAll("  ", " ");
+        
+        String[] words = phrase.split(" ");
+
+        // String[] words = Pattern.compile("ian").split(phrase.replaceAll("[^\\p{Alnum}]+", ""));
+
+        for (String word : words) {
+            if (results.containsKey(word)) {
+                int count = results.get(word);
+                count++;
+                results.remove(word);
+                results.put(word, count);
+            }
+            else {
+                results.put(word, 1);
+            }
+        }
+        
+        return results;
+    }
+}

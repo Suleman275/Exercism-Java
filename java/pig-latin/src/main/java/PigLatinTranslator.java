@@ -13,4 +13,8 @@ public class PigLatinTranslator {
     Boolean isVowelSound(String c) {
         return false;
     }
+
+    Boolean isConsonant(char c) {
+        return !isVowelSound(c);
+    }
 }

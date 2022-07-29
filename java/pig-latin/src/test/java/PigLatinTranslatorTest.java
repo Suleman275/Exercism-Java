@@ -78,7 +78,7 @@ public class PigLatinTranslatorTest {
         assertEquals("airchay", pigLatinTranslator.translate("chair"));
     }
 
-    @Ignore("Remove to run test")
+    // @Ignore("Remove to run test")
     @Test
     public void testQuTreatedLikeAConsonantAtTheBeginningOfAWord() {
         assertEquals("eenquay", pigLatinTranslator.translate("queen"));
@@ -90,49 +90,49 @@ public class PigLatinTranslatorTest {
         assertEquals("aresquay", pigLatinTranslator.translate("square"));
     }
 
-    @Ignore("Remove to run test")
+    // @Ignore("Remove to run test")
     @Test
     public void testThTreatedLikeAConsonantAtTheBeginningOfAWord() {
         assertEquals("erapythay", pigLatinTranslator.translate("therapy"));
     }
 
-    @Ignore("Remove to run test")
+    // @Ignore("Remove to run test")
     @Test
     public void testThrTreatedLikeAConsonantAtTheBeginningOfAWord() {
         assertEquals("ushthray", pigLatinTranslator.translate("thrush"));
     }
 
-    @Ignore("Remove to run test")
+    // @Ignore("Remove to run test")
     @Test
     public void testSchTreatedLikeAConsonantAtTheBeginningOfAWord() {
         assertEquals("oolschay", pigLatinTranslator.translate("school"));
     }
 
-    @Ignore("Remove to run test")
+    // @Ignore("Remove to run test")
     @Test
     public void testYtTreatedLikeAVowelAtTheBeginningOfAWord() {
         assertEquals("yttriaay", pigLatinTranslator.translate("yttria"));
     }
 
-    @Ignore("Remove to run test")
+    // @Ignore("Remove to run test")
     @Test
     public void testXrTreatedLikeAVowelAtTheBeginningOfAWord() {
         assertEquals("xrayay", pigLatinTranslator.translate("xray"));
     }
 
-    @Ignore("Remove to run test")
+    // @Ignore("Remove to run test")
     @Test
     public void testYTreatedLikeAConsonantAtTheBeginningOfAWord() {
         assertEquals("ellowyay", pigLatinTranslator.translate("yellow"));
     }
 
-    @Ignore("Remove to run test")
+    // @Ignore("Remove to run test")
     @Test
     public void testYTreatedLikeAVowelAtTheEndOfAConsonantCluster() {
         assertEquals("ythmrhay", pigLatinTranslator.translate("rhythm"));
     }
 
-    @Ignore("Remove to run test")
+    // @Ignore("Remove to run test")
     @Test
     public void testYAsSecondLetterInTwoLetterWord() {
         assertEquals("ymay", pigLatinTranslator.translate("my"));
